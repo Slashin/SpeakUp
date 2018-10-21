@@ -1,0 +1,528 @@
+/* general styles */
+#root {
+    margin-top: 50px;
+}
+
+.base--hr {
+    margin-top: 1em;
+}
+
+.tab-panels{
+    display:none;
+}
+
+.arrow-box-container {
+    position: relative;
+}
+
+.base--button{
+    border: 2px solid #495c6a;
+    color: #60c0d8;
+    font-size: 17px;
+}
+
+.base--button:hover{
+    background-color: #60c0d8;
+    color: white;
+    border: 2px solid #495c6a;
+
+}
+
+sup {
+    vertical-align: super;
+    font-size: 0.8rem;
+}
+
+/* override strange defaults in chrome */
+dialog, dd, dt {
+    position: static;
+    display: block;
+    border: 0;
+    padding: 0;
+}
+
+
+
+
+/*Added Custom Styles*/
+
+.full-container{
+    padding: 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#mainSection{
+    background-color: #60c0d8;
+    width: 100%;    
+    margin-top: 70px;
+    /*width: 100%;  
+    background: linear-gradient(rgba(72, 72, 96, 0), rgba(72, 72, 96, 0) ), url("../images/interview-background2.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    height: 850px;*/
+}
+
+.mainSectionText{
+    padding: 50px;
+    text-align: center;
+}
+
+#mainBox{
+    
+}
+
+.mainSectionText h2{
+    color:white;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+
+.highlightWord{
+    padding: 1px 3px;
+    box-shadow: 1px 1px 1px 1px #888888;
+    font-size: 16px;
+    font-family: Verdana;
+    border: 1px solid black;
+}
+
+#transcriptionBox{
+    font-size: 16px;
+    font-family: Verdana;
+    width: 80%;
+    border: 3px solid #495c6a;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: block;
+}
+
+#getStartedButton{
+    margin:0;
+    text-align:center;
+}
+
+#apiBox, #thesaurusWordHolder, #thesaurusOutput{
+    display:none;
+}
+
+
+._container{
+    padding: 0 !important;
+}
+
+label {
+    margin-bottom:0 !important;
+}
+
+#flex-setup{
+    display: none;
+}
+
+#mainBox{
+    width: 100%;
+}
+
+#mainContainer{
+    display: none;
+}
+
+.Title{
+    text-align:center;
+    color:#495c6a;
+}   
+
+.subTitle{
+    text-align:center;
+    color:#495c6a;
+}
+
+.quote{
+    color: white;
+    font-family: verdana;
+}
+
+body *+*{
+    margin: 0;
+}
+
+.base--inline-label{
+    background-color: #60c0d8;
+    color: white;
+    border: 1.5px solid #495c6a;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: verdana;
+}
+
+.base--inline-label:hover{
+    background-color: #54a7bc;
+    box-shadow: 1px 1px 1px 0.5px #888888;
+    cursor: pointer;
+}
+
+.nav-item::before{
+    content: none;
+}
+
+.nav-link{
+    border-bottom: none;
+    color:#495c6a!important;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    border-bottom:5px solid #60c0d8 !important;
+    height: 40px !important;
+} 
+
+.navbar{
+    box-shadow:0 1px 30px #888888;
+}
+
+.navbar-brand{
+    border-bottom: none;
+}
+
+.navbar-brand:hover {
+    border: none;
+}
+
+.navbar-brand:active {
+    border-bottom:5px solid #60c0d8 !important;
+}
+
+.nav-link:active {
+    border-bottom:5px solid #60c0d8 !important;
+    text-decoration: none;
+} 
+
+a:-webkit-any-link{
+    text-decoration: none;
+    border-bottom:none;
+}
+
+.navbar-nav {
+    width: auto;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+#wordEntryBox{
+    width: 30%;
+    margin: 0 auto!important;
+}
+
+#wordEntry{
+    border: 3px solid #495c6a;
+    display: inline;
+    border-radius: 20px;
+    outline: none;
+}
+
+#colorPicker{
+    border: none;
+    display: inline;
+    padding: 0;
+    border-radius: 10px;
+    width: 30px !important;
+    flex:0 10%;
+    margin: 0 auto;
+}
+
+#customButton{
+    padding: 1px !important;
+    border: 2px solid #495c6a;
+    color: #60c0d8;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+#customButton:hover{
+    background-color: #54a7bc;
+    box-shadow: 1px 1px 1px 0.5px #888888;
+    cursor: pointer;
+    color:white;
+}
+
+#customWordHolder{
+    font-size: 16px;
+    font-family: Verdana;
+    width: 80%;
+    border: 3px solid #495c6a;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.customWords{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    color:white;
+    margin: 10px 10px;
+}
+
+.closeButtonStyle{
+    margin-left: 15px;
+    padding:0 5px;
+    border: 2px solid white;
+    border-radius: 100px;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+.closeButtonStyle:hover{
+    background-color: red;
+    cursor: pointer;
+    color: black;
+}
+
+#thesaurusBox, #sentimentBox, #transcriptHistoryBox{
+    border: 3px solid #495c6a;
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+    display: block;
+    
+}
+
+
+
+#sideViewBox {
+    display:none;
+    width:80%;
+    margin: 0 auto;
+}
+
+#toggleSideButton, #viewTranscriptsButton{
+    display:none;
+    padding: 3px 1px !important;
+    border: 2px solid #495c6a;
+    color: #60c0d8;
+    border-radius: 10px;
+    font-size: 17px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#toggleSideButton:hover{
+    background-color: #54a7bc;
+    box-shadow: 1px 1px 1px 0.5px #888888;
+    cursor: pointer;
+    color:white;
+}
+
+#viewTranscriptsButton:hover{
+    background-color: #54a7bc;
+    box-shadow: 1px 1px 1px 0.5px #888888;
+    cursor: pointer;
+    color:white;
+}
+
+#transcriptionBoxSide{
+    border: 3px solid #495c6a;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#thesaurusBoxSide{
+    border: 3px solid #495c6a;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+.theWord{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    color:white;
+    margin: 10px 10px;
+    background-color: #60c0d8;
+}
+
+#thesaurusOutputBox{
+    word-wrap: break-word;
+}
+
+.teamImageBox{
+    width: 100%;
+    text-align:center;
+}
+
+.teamImageBox h3{
+    color: #495c6a;
+}
+
+.teamImage{
+    border-radius: 500px;
+    width: 300px;
+    border: 5px solid #60c0d8;
+}
+
+.ExecName{
+    font-size: 20px;
+}
+
+.featureBox{
+    margin: 50px 0;
+    border-radius: 125px;
+}
+
+.featureText{
+    font-size: 20px;
+    color: #495c6a;
+    display: flex;
+    align-items: center;
+    /*background-color: #60c0d8;*/
+    text-align: center;
+    font-weight: bold;
+}
+
+#footerSection{
+    background-color: #60c0d8;
+    color: white;
+    width:100%;
+    text-align: center;
+    padding: 25px 0;
+}
+
+
+
+/* drag-drop styles */
+._container {
+    position: relative;
+}
+.base--checkbox + label, .base--radio + label, .prism {
+    position: static;
+}
+
+.base--checkbox+label::before, input[type=checkbox]+label::before{
+    display:none;
+}
+
+.drop-info-container {
+    position: absolute;
+    display: none;
+    /* This div also gets our container classnames in order to be the correct width.
+    But, it isn't exactly correct until we fiddle with the padding */
+    padding-right: 1rem;
+}
+
+.dropzone.dropzone-active .drop-info-container,
+.dropzone.dropzone-reject .drop-info-container {
+    display: block;
+}
+
+.drop-info {
+    background-color: white;
+    opacity: 0.9;
+    padding: 60px;
+    min-height: 800px;
+    border: 10px dashed #959595; /* gray_40 */
+    border-radius: 10px;
+    z-index: 1;
+}
+.drop-info h1 {
+    font-size: 60px;
+}
+.drop-info p {
+    font-size: 30px;
+}
+.dropzone.dropzone-reject .drop-info{
+    background-color: #E71D32; /* red_50 */
+}
+
+/* settings */
+
+.base--input {
+    border: 2px solid #464646;
+}
+
+.base--input:hover, .base--input:focus {
+    border-width: 2px;
+}
+
+.flex > * {
+    margin: 6px 6px 0 0;
+}
+.flex > *:last-child {
+    margin-right: 0;
+}
+
+@media (min-width: 1024px) {
+    .flex {
+        display: flex;
+    }
+    .flex > * {
+        flex: 1;
+        margin: 0 6px 0 0;
+    }
+    .flex > *:last-child {
+        margin-right: 0;
+    }
+    .base--input, .base--select {
+        max-width: 100%;
+    }
+}
+
+.base--button:focus {
+  outline: 0;
+}
+
+
+.base--button.mic-active {
+    background-color: #E71D32;
+    color: white;
+    border-color: #E71D32
+}
+
+.speaker-labels {
+    margin-left: 0px;
+}
+
+/* Speaker View styles */
+.speaker-labels dt {
+    font-weight: bold;
+    display: inline;
+}
+.speaker-labels dd {
+    display: inline;
+}
+
+/* JSONView styles */
+.jsonview .options > div {
+    display: inline-block;
+}
+.jsonview .options > div > div {
+    display: inline-block;
+    margin-right: 1em;
+}
+.jsonview .options div:before {
+    display: none;
+}
+.json-link--span code {
+    word-wrap: break-word;
+}
+
+/* Word Timings and Alternatives view styles */
+.word-timings-alternatives .word {
+    padding-right: 1ex; /*I tried just putting a space in the HTML, but chrome and safari hide it :( */
+    display: inline-block;
+    margin-top: 0;
+}
+
+.smalltext { font-size: 10pt; }
